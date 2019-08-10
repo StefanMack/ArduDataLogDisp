@@ -8,4 +8,9 @@ Beides, die animierte grafische Darstellung der Messdaten wie auch das Loggen, k
 Wichtige Info:
 Der Quellcode dieses Jupyter-Notebooks kann nicht innerhalb des Browsers ausgeführt werden. Zum Testen der Beispielprogramme sollte deren Quellcode z.B. in einer Python-Konsole oder unter der Python-IDE Spyder ausgeführt werden.
 
-Zudem ist ein via USB angeschlossener Arduino mit der entsprechenden Firmware (C-Programm) nötig, dessen Schnittstelleninformation im Python-Code angepasst werden muss. Die vom Arduino im PC belegte Schnittstelle kann man z.B. in der Arduino-IDE nachschauen.
+Zudem ist ein via USB angeschlossener Arduino mit der entsprechenden Firmware (C-Programm) nötig, dessen Schnittstelleninformation im Python-Code angepasst werden muss. Die vom Arduino im PC belegte Schnittstelle kann man z.B. in der Arduino-IDE nachschauen.  
+
+> Hinweis: Wenn Sie oben im File Explorer auf eine der beiden Jupyter Notebooks (Endung ".ipnyb") klicken, dann wird lediglich ein Viewer geöffnet, in dem Sie das Notebook nur anschauen können. Oft funktioniert dieses Verfahren jedoch nicht fehlerfrei.  
+**Zum Anschauen verwenden Sie daher bitte den speziellen Viewer für Jupyter-Notebooks "nbviewer" [über diesen Link](https://nbviewer.jupyter.org/github/StefanMack/ArduDataLogDisp/blob/master/ArduDataLogDisp.ipynb).**
+
+**Das Ausführen der in diesem Jupyter-Notebook enthaltenen Python-Quellcodes ist leider nicht möglich, da eine serielle Verbindungen zu einem Arduino mit entsprechener Firmware dafür nötig ist.**
